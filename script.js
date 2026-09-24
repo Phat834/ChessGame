@@ -768,6 +768,7 @@ togglehighlight: function(options) {
       main.variables.selectedpiece = '';
       main.variables.highlighted = [];
       main.variables.gameOver = false;
+      $('.gamecell').removeClass('green neonblue_txt neongreen_txt neonorange_txt shake-little');
       $('#turn').html("It's Whites Turn");
       $('#turn').removeClass('winner-highlight');
       $('#turn').removeClass('turnhighlight');
